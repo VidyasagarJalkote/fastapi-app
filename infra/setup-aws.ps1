@@ -18,8 +18,10 @@ $trustGithub = @"
       "StringLike": {
         "token.actions.githubusercontent.com:sub": [
           "repo:VidyasagarJalkote/calculator-app:*",
+          "repo:VidyasagarJalkote*/calculator-app*:*",
           "repo:VidyasagarJalkote/fastapi-app:*",
-          "repo:VidyasagarJalkote/*:*"
+          "repo:VidyasagarJalkote*/fastapi-app*:*",
+          "repo:VidyasagarJalkote*/*:*"
         ]
       }
     }
